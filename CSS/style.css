@@ -1,3 +1,12 @@
-nav {
-    background-color: #1766a4;
+.navbar-custom .nav-link:hover
+{
+    color: #1766a4 !important;
+    transition: 0.5;
 }
+
+.navbar-custom 
+{
+    background-color: white;
+}
+
+
