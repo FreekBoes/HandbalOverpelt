@@ -1,12 +1,16 @@
-.navbar-custom .nav-link:hover
-{
+.navbar-custom .nav-link:hover,
+.navbar-custom .dropdown .dropdown-item:hover {
     color: #1766a4 !important;
-    transition: 0.5;
+    background-color: white !important;
+    transition: 0.5s;
 }
 
-.navbar-custom 
-{
-    background-color: white;
+.navbar-custom .navbar-brand:hover,
+.navbar-custom .nav-link:hover {
+    color: #1766a4 !important; 
+    background-color: #fff;
 }
 
-
+.navbar-custom {
+    background-color: white !important;
+}
