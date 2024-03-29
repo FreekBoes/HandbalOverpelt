@@ -1,3 +1,5 @@
+body {}
+
 .navbar-custom .nav-link:hover,
 .navbar-custom .dropdown .dropdown-item:hover {
     color: #1766a4 !important;
@@ -13,4 +15,14 @@
 
 .navbar-custom {
     background-color: white !important;
+}
+
+.custom-btn {
+    background-color: #1766a4 !important;
+    color: white !important;
+}
+
+footer {
+    background-color: #1766a4;
+    color: white;
 }
