@@ -45,3 +45,12 @@ footer {
     background-color: #1766a4;
     color: white;
 }
+
+footer p a 
+{
+    color:white;
+    text-decoration: none;
+}
+
+i {color: white;}
+
