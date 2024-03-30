@@ -49,8 +49,15 @@ footer {
 footer p a 
 {
     color:white;
+    text-decoration: underline;
+}
+
+.footerlink:hover {
+    transition: 0.5s !important;
     text-decoration: none;
 }
 
-i {color: white;}
+i {
+    color: white;
+}
 
