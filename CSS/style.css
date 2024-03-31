@@ -41,6 +41,10 @@ main div ul li a:hover {
     transition: 0.5s;
 }
 
+img {
+    border-radius: 20px;
+}
+
 footer {
     background-color: #1766a4;
     color: white;
@@ -60,4 +64,3 @@ footer p a
 i {
     color: white;
 }
-
