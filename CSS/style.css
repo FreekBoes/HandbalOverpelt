@@ -31,12 +31,12 @@ main div ul li {
     list-style-type: none;
 }
 
-main div ul li a{
+.link{
     color: #000;
     background-color: white;
 }
 
-main div ul li a:hover {
+.link:hover {
     color: #1766a4 ;
     transition: 0.5s;
 }
