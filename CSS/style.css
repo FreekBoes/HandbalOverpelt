@@ -45,6 +45,11 @@ img {
     border-radius: 20px;
 }
 
+.socialmediabody{
+    color: #1766a4;
+    transition: 0.5s;
+}
+
 footer {
     background-color: #1766a4;
     color: white;
