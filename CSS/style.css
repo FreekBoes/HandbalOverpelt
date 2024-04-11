@@ -34,10 +34,11 @@ main div ul li {
 .link{
     color: #000;
     background-color: white;
+    transition: 0.5s;
 }
 
 .link:hover {
-    color: #1766a4 ;
+    color: #1766a4;
     transition: 0.5s;
 }
 
@@ -53,16 +54,18 @@ img {
 footer {
     background-color: #1766a4;
     color: white;
+    transition: 0.5s;
 }
 
 footer p a 
 {
     color:white;
     text-decoration: underline;
+    transition: 0.5s;
 }
 
 .footerlink:hover {
-    transition: 0.5s !important;
+    transition: 0.5s;
     text-decoration: none;
 }
 
