@@ -11,6 +11,11 @@ body {}
 .navbar-custom .nav-link:hover {
     color: #1766a4 !important; 
     background-color: #fff;
+    transition: 0.5s;
+}
+
+.navbar-brand {
+    transition: 0.5s;
 }
 
 .navbar-custom {
