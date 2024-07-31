@@ -46,6 +46,15 @@
     
 }
 
+.bannerHeren {
+    background-image: url("../RESOURCES/Heren.jpg");
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
 .banner2 {
     position: absolute;
     width: 100%;
