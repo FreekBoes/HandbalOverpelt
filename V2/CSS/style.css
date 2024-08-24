@@ -108,6 +108,13 @@ i {
     color: white;
 }
 
+hr {
+    color: #1766a4 !important;
+    background-color: #1766a4 !important;
+    padding: 2px;
+    margin: 0;
+}
+
 footer {
     color: white;
     background-color: #1766a4;;
