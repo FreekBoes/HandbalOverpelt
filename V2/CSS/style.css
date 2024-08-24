@@ -100,6 +100,14 @@
     list-style-type: none;
 }
 
+i {
+    color: #1766a4;
+}
+
+.iAnders {
+    color: white;
+}
+
 footer {
     color: white;
     background-color: #1766a4;;
