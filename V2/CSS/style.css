@@ -55,6 +55,15 @@
     position: relative;
 }
 
+.bannerContact {
+    background-image: url("../RESOURCES/sporthal.jpg");
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
 .banner2 {
     position: absolute;
     width: 100%;
@@ -107,6 +116,8 @@ i {
 .iAnders {
     color: white;
 }
+
+
 
 hr {
     color: #1766a4 !important;
