@@ -64,6 +64,15 @@
     position: relative;
 }
 
+.bannerClubinfo {
+    background-image: url("../RESOURCES/Bestuur\ HCO.jpg");
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
 .banner2 {
     position: absolute;
     width: 100%;
@@ -117,14 +126,23 @@ i {
     color: white;
 }
 
-
-
 hr {
     color: #1766a4 !important;
     background-color: #1766a4 !important;
     padding: 2px;
     margin: 0;
 }
+
+.custom-card-bg {
+    background-color: #1766a4 !important;
+    color: white !important;
+}
+
+.custom-card-bg .knop {
+    color: #1766a4; /* Ensure link text is readable */
+    background-color: white;
+}
+
 
 footer {
     color: white;
