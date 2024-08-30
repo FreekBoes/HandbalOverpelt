@@ -138,6 +138,10 @@ hr {
     color: white !important;
 }
 
+.blauw {
+    color: #1766a4 ;
+}
+
 .custom-card-bg .knop {
     color: #1766a4; /* Ensure link text is readable */
     background-color: white;
