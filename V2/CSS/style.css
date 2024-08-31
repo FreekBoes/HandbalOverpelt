@@ -142,6 +142,13 @@ hr {
     color: #1766a4 ;
 }
 
+.clubinfoNaam {
+    text-decoration: overline;
+    text-decoration-color: #1766a4;
+    text-decoration-line: underline;
+    
+}
+
 .custom-card-bg .knop {
     color: #1766a4; /* Ensure link text is readable */
     background-color: white;
