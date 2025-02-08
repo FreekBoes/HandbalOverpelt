@@ -731,6 +731,9 @@
   .mr-5 {
     margin-right: calc(var(--spacing) * 5);
   }
+  .mb-2 {
+    margin-bottom: calc(var(--spacing) * 2);
+  }
   .mb-3 {
     margin-bottom: calc(var(--spacing) * 3);
   }
@@ -739,9 +742,6 @@
   }
   .mb-6 {
     margin-bottom: calc(var(--spacing) * 6);
-  }
-  .mb-10 {
-    margin-bottom: calc(var(--spacing) * 10);
   }
   .ml-5 {
     margin-left: calc(var(--spacing) * 5);
@@ -1587,9 +1587,6 @@
   }
   .border-blue-500 {
     border-color: var(--color-blue-500);
-  }
-  .border-gray-300 {
-    border-color: var(--color-gray-300);
   }
   .bg-\(--my_variable\) {
     background-color: var(--my_variable);
@@ -2467,6 +2464,13 @@
     &:hover {
       @media (hover: hover) {
         border-color: var(--color-white);
+      }
+    }
+  }
+  .hover\:border-b-blue-500 {
+    &:hover {
+      @media (hover: hover) {
+        border-bottom-color: var(--color-blue-500);
       }
     }
   }
