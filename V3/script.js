@@ -13,4 +13,10 @@ document.addEventListener("DOMContentLoaded", function () {
   if (mobileMenu) {
     mobileMenu.style.display = "none";
   }
+
+  // Zet automatisch het huidige jaar in de footer
+  const yearElement = document.getElementById("currentYear");
+  if (yearElement) {
+    yearElement.textContent = new Date().getFullYear();
+  }
 });
