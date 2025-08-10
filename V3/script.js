@@ -20,3 +20,14 @@ document.addEventListener("DOMContentLoaded", function () {
     yearElement.textContent = new Date().getFullYear();
   }
 });
+
+function toggleSubmenu() {
+  const submenu = document.getElementById("mobile-submenu");
+  const icon = document.getElementById("submenuIcon");
+  if (!submenu) return;
+
+  submenu.classList.toggle("hidden");
+  if (icon) {
+    icon.classList.toggle("rotate-180");
+  }
+}
