@@ -152,34 +152,98 @@
   </section>
 
   <!-- Belangrijke info -->
-  <section class="pt-20 bg-gray-50">
-    <h1 class="text-blue-500 text-center font-bold text-3xl">BELANGRIJKE INFO</h1>
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-8 px-6 text-center">
-      <div>
-        <h1 class="font-bold text-2xl">KALENDER</h1>
-        <p>Bekijk hier onze kalender met wedstrijden en evenementen.</p>
-      </div>
-       <div class="bg-blue-500 text-white text-center font-bold rounded-md p-4">
-        <h1 class="font-bold text-2xl">RANGSCHIKKING</h1>
-        <div>
-          <h1>Ploegen</h1>
-          <p><a href="https://www.handballbelgium.be/index.php/competition/vhv-competitions/?season_id=5&organization_id=2&start_date=2025-09-01&end_date=2025-09-07&competition_id=106&serie_id=656" class="border-b-2 border-transparent hover:border-white transition">HEREN 1</a></p>
-          <p><a href="https://www.handballbelgium.be/index.php/competition/vhv-competitions/?season_id=5&organization_id=2&start_date=2025-09-01&end_date=2025-09-07&competition_id=106&serie_id=651" class="border-b-2 border-transparent hover:border-white transition">HEREN 2</a></p>
-          <p><a href="" class="border-b-2 border-transparent hover:border-white transition">J18</a></p>
-          <p><a href="" class="border-b-2 border-transparent hover:border-white transition">J16</a></p>
-          <p><a href="" class="border-b-2 border-transparent hover:border-white transition">J14</a></p>
-          <p><a href="" class="border-b-2 border-transparent hover:border-white transition">J12</a></p>
-          <p><a href="" class="border-b-2 border-transparent hover:border-white transition">J10</a></p>
-          <p><a href="" class="border-b-2 border-transparent hover:border-white transition">J08</a></p>
-        </div>
-      </div>
-      <div>
-        <h1 class="font-bold text-2xl">OPEN TRAININGS DAGEN</h1>
-        <p class="text-gray-600">Nieuwe leden welkom! Kom vrijblijvend proeven van handbal tijdens onze open trainingen.</p>
-        <img src="" alt="">
+<section class="pt-20 bg-gray-50">
+  <!-- Hoofdtitel -->
+  <div class="text-center mb-12">
+    <h1 class="text-blue-500 font-bold text-3xl uppercase">Belangrijke info</h1>
+  </div>
+
+  <!-- De drie elementen -->
+  <div class="grid grid-cols-1 md:grid-cols-3 gap-8 px-6 text-center items-stretch">
+    
+    <!-- Kalender -->
+    <div class="flex flex-col bg-white rounded-md shadow-md p-4">
+      <h2 class="font-bold text-2xl mb-2">Kalender</h2>
+      <p class="mb-4">Bekijk hier onze kalender met wedstrijden en evenementen.</p>
+      <div class="flex-grow">
+        <iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=2&amp;bgcolor=%23ffffff&amp;ctz=Europe%2FBrussels&amp;mode=AGENDA&amp;title=Handbal%20Overpelt&amp;showNav=1&amp;showDate=1&amp;showPrint=1&amp;showCalendars=1&amp;showTabs=1&amp;showTz=1&amp;src=ODdrcGgzb3B2ZHVzNGJsZWs1YXI3YTRwMzFnaDA5NWtAaW1wb3J0LmNhbGVuZGFyLmdvb2dsZS5jb20&amp;src=Zmd0dGUxcHJyajE3dnJtMXUxYTlucjI3YWs4cW0wbGJAaW1wb3J0LmNhbGVuZGFyLmdvb2dsZS5jb20&amp;src=ZnFhZjdtbG82ZnBudXJnZ2dlb20wMGF2MDhla3V0aWxAaW1wb3J0LmNhbGVuZGFyLmdvb2dsZS5jb20&amp;src=MXNmcGZia2RxZzRzNW4yajM2MmdlYWtlaDJmOG41ZjhAaW1wb3J0LmNhbGVuZGFyLmdvb2dsZS5jb20&amp;src=dWsyMzNzdTRjMmx2MmkxdTY0ODM3MnYyZjlpbDM1YnBAaW1wb3J0LmNhbGVuZGFyLmdvb2dsZS5jb20&amp;src=OGlpNjY1aXQwOTBwazQxamZrYXBwOXNpZnA4MzEydXJAaW1wb3J0LmNhbGVuZGFyLmdvb2dsZS5jb20&amp;src=dmpxa25rZmMzOWNzN204OGY2MWR2dm9oOG01NjhwOG5AaW1wb3J0LmNhbGVuZGFyLmdvb2dsZS5jb20&amp;src=M2ptNmZvZHF2ZzM5NmwzMDV0MDlrbWdtMm4yYzRhMW9AaW1wb3J0LmNhbGVuZGFyLmdvb2dsZS5jb20&amp;color=%23EF6C00&amp;color=%23F6BF26&amp;color=%23A79B8E&amp;color=%23A79B8E&amp;color=%23A79B8E&amp;color=%23A79B8E&amp;color=%23A79B8E&amp;color=%23A79B8E"
+          style="border:solid 1px #777" width="100%" height="400" frameborder="0" scrolling="no"></iframe>
       </div>
     </div>
-  </section>
+
+<!-- Rangschikking (vervang je huidige middelste kolom hiermee) -->
+<div class="flex flex-col rounded-xl overflow-hidden shadow-lg bg-gradient-to-br from-blue-600 to-blue-500 text-white min-h-[520px]">
+  <!-- Kop -->
+  <div class="px-5 py-4 border-b border-white/20">
+    <h3 class="text-2xl font-semibold uppercase tracking-widest">Rangschikking</h3>
+  </div>
+
+  <!-- Lijst met ploegen -->
+  <div class="flex-1 px-2 py-3">
+    <ul class="space-y-1">
+      <li>
+        <a href="https://www.handballbelgium.be/index.php/competition/vhv-competitions/?season_id=5&organization_id=2&start_date=2025-09-01&end_date=2025-09-07&competition_id=106&serie_id=656"
+           class="group flex items-center justify-between rounded-lg px-3 py-2 hover:bg-white/10 transition">
+          <span class="border-b-2 border-transparent group-hover:border-white transition">HEREN 1</span>
+          <span class="ml-3 inline-flex items-center opacity-75 group-hover:opacity-100 transform group-hover:translate-x-0.5 transition">
+            <!-- pijltje -->
+            <svg class="w-4 h-4" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+              <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l5 5a1 1 0 010 1.414l-5 5a1 1 0 11-1.414-1.414L13.586 10H4a1 1 0 110-2h9.586l-3.293-3.293a1 1 0 010-1.414z" clip-rule="evenodd"/>
+            </svg>
+          </span>
+        </a>
+      </li>
+      <li>
+        <a href="https://www.handballbelgium.be/index.php/competition/vhv-competitions/?season_id=5&organization_id=2&start_date=2025-09-01&end_date=2025-09-07&competition_id=106&serie_id=651"
+           class="group flex items-center justify-between rounded-lg px-3 py-2 hover:bg-white/10 transition">
+          <span class="border-b-2 border-transparent group-hover:border-white transition">HEREN 2</span>
+          <span class="ml-3 inline-flex items-center opacity-75 group-hover:opacity-100 transform group-hover:translate-x-0.5 transition">
+            <svg class="w-4 h-4" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+              <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l5 5a1 1 0 010 1.414l-5 5a1 1 0 11-1.414-1.414L13.586 10H4a1 1 0 110-2h9.586l-3.293-3.293a1 1 0 010-1.414z" clip-rule="evenodd"/>
+            </svg>
+          </span>
+        </a>
+      </li>
+
+      <!-- Vul je overige jeugdreeksen aan (links zijn placeholders) -->
+      <li><a href="#" class="group flex items-center justify-between rounded-lg px-3 py-2 hover:bg-white/10 transition">
+        <span class="border-b-2 border-transparent group-hover:border-white transition">J18</span>
+        <span class="ml-3 inline-flex items-center opacity-75 group-hover:opacity-100 transform group-hover:translate-x-0.5 transition">
+          <svg class="w-4 h-4" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l5 5a1 1 0 010 1.414l-5 5a1 1 0 11-1.414-1.414L13.586 10H4a1 1 0 110-2h9.586l-3.293-3.293a1 1 0 010-1.414z" clip-rule="evenodd"/></svg>
+        </span>
+      </a></li>
+      <li><a href="#" class="group flex items-center justify-between rounded-lg px-3 py-2 hover:bg-white/10 transition"><span class="border-b-2 border-transparent group-hover:border-white transition">J16</span><span class="ml-3 inline-flex items-center opacity-75 group-hover:opacity-100 transform group-hover:translate-x-0.5 transition"><svg class="w-4 h-4" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l5 5a1 1 0 010 1.414l-5 5a1 1 0 11-1.414-1.414L13.586 10H4a1 1 0 110-2h9.586l-3.293-3.293a1 1 0 010-1.414z" clip-rule="evenodd"/></svg></span></a></li>
+      <li><a href="#" class="group flex items-center justify-between rounded-lg px-3 py-2 hover:bg-white/10 transition"><span class="border-b-2 border-transparent group-hover:border-white transition">J14</span><span class="ml-3 inline-flex items-center opacity-75 group-hover:opacity-100 transform group-hover:translate-x-0.5 transition"><svg class="w-4 h-4" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l5 5a1 1 0 010 1.414l-5 5a1 1 0 11-1.414-1.414L13.586 10H4a1 1 0 110-2h9.586l-3.293-3.293a1 1 0 010-1.414z" clip-rule="evenodd"/></svg></span></a></li>
+      <li><a href="#" class="group flex items-center justify-between rounded-lg px-3 py-2 hover:bg-white/10 transition"><span class="border-b-2 border-transparent group-hover:border-white transition">J12</span><span class="ml-3 inline-flex items-center opacity-75 group-hover:opacity-100 transform group-hover:translate-x-0.5 transition"><svg class="w-4 h-4" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l5 5a1 1 0 010 1.414l-5 5a1 1 0 11-1.414-1.414L13.586 10H4a1 1 0 110-2h9.586l-3.293-3.293a1 1 0 010-1.414z" clip-rule="evenodd"/></svg></span></a></li>
+      <li><a href="#" class="group flex items-center justify-between rounded-lg px-3 py-2 hover:bg-white/10 transition"><span class="border-b-2 border-transparent group-hover:border-white transition">J10</span><span class="ml-3 inline-flex items-center opacity-75 group-hover:opacity-100 transform group-hover:translate-x-0.5 transition"><svg class="w-4 h-4" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l5 5a1 1 0 010 1.414l-5 5a1 1 0 11-1.414-1.414L13.586 10H4a1 1 0 110-2h9.586l-3.293-3.293a1 1 0 010-1.414z" clip-rule="evenodd"/></svg></span></a></li>
+      <li><a href="#" class="group flex items-center justify-between rounded-lg px-3 py-2 hover:bg-white/10 transition"><span class="border-b-2 border-transparent group-hover:border-white transition">J08</span><span class="ml-3 inline-flex items-center opacity-75 group-hover:opacity-100 transform group-hover:translate-x-0.5 transition"><svg class="w-4 h-4" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l5 5a1 1 0 010 1.414l-5 5a1 1 0 11-1.414-1.414L13.586 10H4a1 1 0 110-2h9.586l-3.293-3.293a1 1 0 010-1.414z" clip-rule="evenodd"/></svg></span></a></li>
+    </ul>
+  </div>
+
+  <!-- CTA onderaan (optioneel, houdt de hoogte mooi in balans) -->
+  <div class="px-5 py-3 border-t border-white/20">
+    <a href="#" class="inline-flex items-center gap-2 border-b-2 border-transparent hover:border-white transition">
+      Volledige rangschikking
+      <svg class="w-4 h-4" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+        <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l5 5a1 1 0 010 1.414l-5 5a1 1 0 11-1.414-1.414L13.586 10H4a1 1 0 110-2h9.586l-3.293-3.293a1 1 0 010-1.414z" clip-rule="evenodd"/>
+      </svg>
+    </a>
+  </div>
+</div>
+
+
+    <!-- Open trainingsdagen -->
+    <div class="flex flex-col bg-white rounded-md shadow-md p-4">
+      <h2 class="font-bold text-2xl mb-2">Open Trainingsdagen</h2>
+      <p class="text-gray-600 mb-4">Nieuwe leden welkom! Kom vrijblijvend proeven van handbal tijdens onze open trainingen.</p>
+      <div class="flex-grow flex items-center justify-center">
+        <img src="resources/handbal_mei.png" alt="opentraingsdagen poster"
+          class="mt-4 mx-auto w-64 h-auto rounded-md shadow-lg" />
+      </div>
+    </div>
+
+  </div>
+</section>
 
   <!-- Sponsors -->
   <section class="mt-20 bg-gray-50">
