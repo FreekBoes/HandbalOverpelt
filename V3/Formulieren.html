@@ -89,28 +89,28 @@
     </ul>
   </nav>
 
-    <div class="flex items-center justify-center h-screen">
-        <!-- Linkerkant: Tekst -->
-        <header class="w-1/2 flex flex-col justify-center items-center h-full space-y-6 p-6 text-left">
-            <div class="w-3/4">
-                <h1 class="text-3xl font-bold leading-tight">
-                    BELANGRIJKE <span class="text-blue-500">FORMULIEREN</span>
-                </h1>
-                <p class="font-bold">HIER VIND JE DE BELANGRIJKSTE FORMULIEREN</p>
-                <div class="flex space-x-4 pt-2">
-                    <a href="#ongeval"
-                        class="bg-blue-500 text-white font-semibold border-2 px-4 py-2 rounded-md transition-500 ease-in-out hover:bg-blue-700">BEKIJK
-                        HIER</a>
-                </div>
-
+<div class="flex flex-col md:flex-row items-center justify-center h-auto md:h-screen">
+    <!-- Tekst -->
+    <header class="w-full md:w-1/2 flex flex-col justify-center items-center md:items-start h-full space-y-6 p-6 text-center md:text-left">
+        <div class="w-full md:w-3/4">
+            <h1 class="text-3xl font-bold leading-tight">
+                BELANGRIJKE <span class="text-blue-500">FORMULIEREN</span>
+            </h1>
+            <p class="font-bold">HIER VIND JE DE BELANGRIJKSTE FORMULIEREN</p>
+            <div class="flex justify-center md:justify-start space-x-4 pt-2">
+                <a href="#ongeval"
+                    class="bg-blue-500 text-white font-semibold border-2 px-4 py-2 rounded-md transition-500 ease-in-out hover:bg-blue-700">
+                    BEKIJK HIER
+                </a>
             </div>
-        </header>
+        </div>
+    </header>
 
-        <!-- Rechterkant: Afbeelding -->
-        <aside class="w-1/2 h-screen flex justify-center items-center">
-            <img class="w-full h-full object-cover" src="resources/4.jpg" alt="Ploegfoto">
-        </aside>
-    </div>
+    <!-- Afbeelding -->
+    <aside class="w-full md:w-1/2 flex justify-center items-center">
+        <img class="w-full h-auto object-cover" src="resources/4.jpg" alt="Ploegfoto">
+    </aside>
+</div>
 
     <div class="" id="ongeval">
         <div>
@@ -125,7 +125,7 @@
                     heeft plaatsgevonden. Dit formulier helpt bij het vastleggen van de nodige informatie over het
                     incident.</p>
                 <div class="flex justify-between items-center mt-4">
-                    <a href="#" class="text-blue-500 font-medium">Download</a>
+                    <a href="resources/Gegevens sportongeval.docx" class="text-blue-500 font-medium">Download</a>
                     <span
                         class="text-blue-500 border border-blue-500 rounded-full w-6 h-6 flex items-center justify-center text-sm">i</span>
                 </div>

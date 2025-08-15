@@ -43,3 +43,4 @@ function openLightbox(src) {
 function closeLightbox() {
   document.getElementById('lightbox').classList.add('hidden');
 }
+
