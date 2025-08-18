@@ -4,6 +4,20 @@
   display: flex;
 }
 
+/* Vertraging voor dropdown menu */
+.dropdown-delay {
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+.group:hover .dropdown-delay {
+  opacity: 1;
+  visibility: visible;
+}
+.dropdown-delay {
+  opacity: 0;
+  visibility: hidden;
+}
+
+
 /* Infinite sponsor marquee */
 .marquee-track {
   width: max-content;              /* past zich aan aan de dubbele inhoud */
