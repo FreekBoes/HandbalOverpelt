@@ -16,6 +16,7 @@
 
 <body class="mx-auto">
   <!-- Navigatie -->
+<!-- Navigatie -->
   <nav class="text-black p-4 shadow-md bg-white sticky top-0 z-50">
     <div class="container mx-auto flex justify-between items-center">
       <!-- Logo -->
@@ -26,20 +27,15 @@
       <!-- Hamburger knop -->
       <button class="md:hidden focus:outline-none" onclick="toggleMenu()">
         <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-            d="M4 6h16M4 12h16M4 18h16"></path>
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
         </svg>
       </button>
 
       <!-- Desktop navigatie -->
-      <ul class="hidden md:flex font-semibold items-center space-x-2">
-        <li><a href="index.html"
-            class="flex items-center px-2 py-2 border-b-2 border-transparent hover:border-blue-500 transition duration-200">HOME</a>
-        </li>
-        <li><a href="Foto's.html"
-            class="flex items-center px-2 py-2 border-b-2 border-transparent hover:border-blue-500 transition duration-200">FOTO'S</a>
-        </li>
-        <li class="relative group">
+<ul class="hidden md:flex font-semibold items-center space-x-2">
+  <li><a href="index.html" class="flex items-center px-2 py-2 border-b-2 border-transparent hover:border-blue-500 transition duration-200">HOME</a></li>
+  <li><a href="Foto's.html" class="flex items-center px-2 py-2 border-b-2 border-transparent hover:border-blue-500 transition duration-200">FOTO'S</a></li>
+  <li class="relative group">
   <button class="flex items-center px-2 py-2 border-b-2 border-transparent hover:border-blue-500 transition duration-200 gap-1">
     PLOEGEN
     <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
@@ -55,51 +51,43 @@
     <li><a href="J12.html" class="block px-4 py-2 hover:bg-blue-100 hover:text-blue-600 transition">J12</a></li>
     <li><a href="J10.html" class="block px-4 py-2 hover:bg-blue-100 hover:text-blue-600 transition">J10</a></li>
     <li><a href="J08.html" class="block px-4 py-2 hover:bg-blue-100 hover:text-blue-600 transition">J08</a></li>
+    <li><a href="Fithandbal.html" class="block px-4 py-2 hover:bg-blue-100 hover:text-blue-600 transition">Fithandbal</a></li>
   </ul>
 </li>
-        <li><a href="Activiteiten.html"
-            class="flex items-center px-2 py-2 border-b-2 border-transparent hover:border-blue-500 transition duration-200">ACTIVITEITEN</a>
-        </li>
-        <li><a href="clubinfo.html"
-            class="flex items-center px-2 py-2 border-b-2 border-transparent hover:border-blue-500 transition duration-200">CLUBINFO</a>
-        </li>
-        <li><a href="FAQ.html"
-            class="flex items-center px-2 py-2 border-b-2 border-transparent hover:border-blue-500 transition duration-200">FAQ</a>
-        </li>
-        <li><a href="Contact.html"
-            class="flex items-center px-2 py-2 border-b-2 border-transparent hover:border-blue-500 transition duration-200">CONTACT</a>
-        </li>
-      </ul>
+  <li><a href="Activiteiten.html" class="flex items-center px-2 py-2 border-b-2 border-transparent hover:border-blue-500 transition duration-200">ACTIVITEITEN</a></li>
+  <li><a href="clubinfo.html" class="flex items-center px-2 py-2 border-b-2 border-transparent hover:border-blue-500 transition duration-200">CLUBINFO</a></li>
+  <li><a href="FAQ.html" class="flex items-center px-2 py-2 border-b-2 border-transparent hover:border-blue-500 transition duration-200">FAQ</a></li>
+  <li><a href="Contact.html" class="flex items-center px-2 py-2 border-b-2 border-transparent hover:border-blue-500 transition duration-200">CONTACT</a></li>
+</ul>
     </div>
 
     <!-- Mobiele navigatie -->
     <ul id="mobile-menu" class="md:hidden mt-4 space-y-2 text-center font-semibold">
       <li><a href="index.html" class="block px-4 py-2 hover:text-blue-500">HOME</a></li>
       <li><a href="Foto's.html" class="block px-4 py-2 hover:text-blue-500">FOTO'S</a></li>
-      <li>
-        <button type="button" onclick="toggleSubmenu()"
+     <li>
+  <button type="button"
+          onclick="toggleSubmenu()"
           class="w-full px-4 py-2 hover:text-blue-500 flex justify-center items-center gap-2">
-          PLOEGEN
-          <svg id="submenuIcon" class="w-4 h-4 transform transition-transform duration-200" viewBox="0 0 20 20"
-            fill="currentColor">
-            <path fill-rule="evenodd"
-              d="M5.23 7.21a.75.75 0 011.06.02L10 11.58l3.71-4.35a.75.75 0 111.14.98l-4.25 5a.75.75 0 01-1.14 0l-4.25-5a.75.75 0 01.02-1.06z"
-              clip-rule="evenodd" />
-          </svg>
-        </button>
+    PLOEGEN
+    <svg id="submenuIcon" class="w-4 h-4 transform transition-transform duration-200" viewBox="0 0 20 20" fill="currentColor">
+      <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.58l3.71-4.35a.75.75 0 111.14.98l-4.25 5a.75.75 0 01-1.14 0l-4.25-5a.75.75 0 01.02-1.06z" clip-rule="evenodd"/>
+    </svg>
+  </button>
 
-        <!-- Mobiel submenu -->
-        <ul id="mobile-submenu" class="hidden space-y-1 text-center">
-          <li><a href="Heren1.html" class="block px-4 py-2 hover:text-blue-500">HEREN 1</a></li>
-          <li><a href="Heren2.html" class="block px-4 py-2 hover:text-blue-500">HEREN 2</a></li>
-          <li><a href="J18.html" class="block px-4 py-2 hover:text-blue-500">J18</a></li>
-          <li><a href="J16.html" class="block px-4 py-2 hover:text-blue-500">J16</a></li>
-          <li><a href="J14.html" class="block px-4 py-2 hover:text-blue-500">J14</a></li>
-          <li><a href="J12.html" class="block px-4 py-2 hover:text-blue-500">J12</a></li>
-          <li><a href="J10.html" class="block px-4 py-2 hover:text-blue-500">J10</a></li>
-          <li><a href="J08.html" class="block px-4 py-2 hover:text-blue-500">J08</a></li>
-        </ul>
-      </li>
+  <!-- Mobiel submenu -->
+  <ul id="mobile-submenu" class="hidden space-y-1 text-center">
+    <li><a href="Heren1.html" class="block px-4 py-2 hover:text-blue-500">HEREN 1</a></li>
+    <li><a href="Heren2.html" class="block px-4 py-2 hover:text-blue-500">HEREN 2</a></li>
+    <li><a href="J18.html"    class="block px-4 py-2 hover:text-blue-500">J18</a></li>
+    <li><a href="J16.html"    class="block px-4 py-2 hover:text-blue-500">J16</a></li>
+    <li><a href="J14.html"    class="block px-4 py-2 hover:text-blue-500">J14</a></li>
+    <li><a href="J12.html"    class="block px-4 py-2 hover:text-blue-500">J12</a></li>
+    <li><a href="J10.html"    class="block px-4 py-2 hover:text-blue-500">J10</a></li>
+    <li><a href="J08.html"    class="block px-4 py-2 hover:text-blue-500">J08</a></li>
+    <li><a href="Fithandbal.html"    class="block px-4 py-2 hover:text-blue-500">Fithandbal</a></li>
+  </ul>
+</li>
       <li><a href="Activiteiten.html" class="block px-4 py-2 hover:text-blue-500">ACTIVITEITEN</a></li>
       <li><a href="clubinfo.html" class="block px-4 py-2 hover:text-blue-500">CLUBINFO</a></li>
       <li><a href="FAQ.html" class="block px-4 py-2 hover:text-blue-500">FAQ</a></li>
